@@ -8,9 +8,9 @@ import { renderTimeline }             from './src/templates/timeline.js'
 import { renderProjects }             from './src/templates/projects.js'
 import { renderCerts, renderSkillDomains } from './src/templates/skills.js'
 import { renderLeadership }           from './src/templates/leadership.js'
-import { renderContact }              from './src/templates/contact.js'
+import { renderContact, renderFooter }     from './src/templates/contact.js'
 
-import type { SiteMeta, TimelineEra, Project, Cert, SkillDomain, LeadershipCard } from './src/templates/types.js'
+import type { SiteMeta, TimelineEra, Project, Cert, SkillDomain, LeadershipCard, ContactInfo } from './src/templates/types.js'
 
 function readJson<T>(path: string): T {
   return JSON.parse(readFileSync(resolve(__dirname, path), 'utf8')) as T
@@ -23,6 +23,7 @@ function contentInjectionPlugin(): Plugin {
       enforce: 'pre',
       transform(html: string): string {
         const site       = readJson<SiteMeta>('content/site.json')
+        const contact    = readJson<ContactInfo>('content/contact.json')
         const timeline   = readJson<TimelineEra[]>('content/timeline.json')
         const projects   = readJson<Project[]>('content/projects.json')
         const certs      = readJson<Cert[]>('content/certs.json')
@@ -38,7 +39,8 @@ function contentInjectionPlugin(): Plugin {
           .replace('<!-- inject:certs -->', renderCerts(certs))
           .replace('<!-- inject:skills -->', renderSkillDomains(skills))
           .replace('<!-- inject:leadership -->', renderLeadership(leadership))
-          .replace('<!-- inject:contact -->', renderContact(site))
+          .replace('<!-- inject:contact -->', renderContact(contact))
+          .replace('<!-- inject:footer -->', renderFooter(contact))
       }
     }
   }

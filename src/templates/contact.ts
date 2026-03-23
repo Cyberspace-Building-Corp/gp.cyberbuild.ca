@@ -1,16 +1,22 @@
-import type { SiteMeta } from './types.js'
+import type { ContactInfo } from './types.js'
 
-export function renderContact(site: SiteMeta): string {
+export function renderContact(contact: ContactInfo): string {
   return `
-  <div class="contact-tagline fade-up">Ready to work together?</div>
-  <p class="contact-sub fade-up">Available for contract and permanent engagements in database architecture, data engineering, cloud infrastructure, and full-stack development.</p>
+  <div class="contact-tagline fade-up">${contact.cta}</div>
+  <p class="contact-sub fade-up">${contact.availability}</p>
   <div class="contact-links fade-up">
-    <a href="mailto:${site.contact.email}" class="contact-link">✉ ${site.contact.email}</a>
-    <a href="${site.contact.linkedin}" class="contact-link" rel="noopener noreferrer">↗ LinkedIn</a>
-    <a href="${site.contact.corporate}" class="contact-link" rel="noopener noreferrer">↗ cyberbuild.ca</a>
+    <a href="mailto:${contact.email}" class="contact-link">✉ ${contact.email}</a>
+    <a href="${contact.linkedin}" class="contact-link" rel="noopener noreferrer">↗ LinkedIn</a>
+    <a href="${contact.corporate}" class="contact-link" rel="noopener noreferrer">↗ ${contact.corporateName}</a>
   </div>
   <div class="contact-divider"></div>
   <div class="contact-corp fade-up">
-    <a href="${site.contact.corporate}">${site.name.split(' ')[0] === 'Greg' ? 'Cyberspace Building Corp.' : ''}</a> — ${site.location}
+    <a href="${contact.corporate}">${contact.corporateName}</a> — ${contact.location}
   </div>`
+}
+
+export function renderFooter(contact: ContactInfo): string {
+  return `
+  <span class="footer-text">${contact.footer.left.toUpperCase()}</span>
+  <span class="footer-text">${contact.footer.right.toUpperCase()}</span>`
 }

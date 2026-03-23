@@ -3,9 +3,18 @@ export interface SiteMeta {
   title: string
   subtitle: string
   tagline: string
-  location: string
-  contact: { email: string; linkedin: string; corporate: string }
   stats: Array<{ value: string; label: string; accent: string }>
+}
+
+export interface ContactInfo {
+  email: string
+  linkedin: string
+  corporate: string
+  corporateName: string
+  availability: string
+  cta: string
+  location: string
+  footer: { left: string; right: string }
 }
 
 export interface TimelineEra {

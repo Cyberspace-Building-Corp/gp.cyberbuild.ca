@@ -3,16 +3,10 @@
   "title": "Principal Solution Architect",
   "subtitle": "Database · Cloud · Data Engineering · Architecture",
   "tagline": "<strong>17 years</strong> at the Region of Durham as Database Administrator and Solution Architect — preceded by private-sector .NET development and followed by independent consulting through <strong>Cyberspace Building Corp</strong>. Enterprise databases, Azure cloud platforms, Medallion Architecture, and the full application stack.",
-  "location": "Ontario · Simcoe County · Greater Toronto Area · Remote Worldwide · UTC-5 EST",
-  "contact": {
-    "email": "greg@cyberbuild.ca",
-    "linkedin": "https://www.linkedin.com/in/gregpeterson",
-    "corporate": "https://cyberbuild.ca"
-  },
   "stats": [
-    { "value": "17",     "label": "Years at Region of Durham",          "accent": "cyan" },
-    { "value": "81%",    "label": "Vulnerability reduction",            "accent": "magenta" },
-    { "value": "99.9%",  "label": "DB uptime achieved",                 "accent": "amber" },
+    { "value": "17",     "label": "Years at Region of Durham",              "accent": "cyan" },
+    { "value": "81%",    "label": "Vulnerability reduction",                "accent": "magenta" },
+    { "value": "99.9%",  "label": "DB uptime achieved",                     "accent": "amber" },
     { "value": "Top 2%", "label": "Ontario institutions, security posture", "accent": "teal" }
   ]
 }
