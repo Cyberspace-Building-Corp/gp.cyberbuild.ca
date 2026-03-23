@@ -19,6 +19,7 @@
   --mono:      'Share Tech Mono', monospace;
   --display:   'Orbitron', sans-serif;
   --body:      'Rajdhani', sans-serif;
+  --glow-duration: 8s;
 }
 
 /* ── RESET ──────────────────────────────────────────────── */
@@ -237,27 +238,18 @@ h1 .last { color: var(--cyan); }
   object-position: center top;
   clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
   display: block;
+  position: relative;
+  z-index: 1;
 }
+/* Static colored border ring */
 .portrait-hex::before {
   content: '';
   position: absolute;
-  inset: -3px;
+  inset: -4px;
   background: linear-gradient(135deg, var(--cyan), var(--magenta), var(--cyan));
   clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
-  z-index: -1;
-  animation: hexGlow 4s ease-in-out infinite;
-}
-.portrait-hex::after {
-  content: '';
-  position: absolute;
-  inset: -12px;
-  background: radial-gradient(ellipse at center, rgba(51,170,255,0.18) 0%, transparent 70%);
-  z-index: -2;
-  animation: hexGlow 4s ease-in-out infinite reverse;
-}
-@keyframes hexGlow {
-  0%, 100% { opacity: 0.7; }
-  50% { opacity: 1; }
+  z-index: 0;
+  opacity: 0.75;
 }
 .portrait-stats {
   display: grid;
