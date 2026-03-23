@@ -7,22 +7,16 @@ function renderMilestones(milestones: string[]): string {
 }
 
 function renderEra(era: TimelineEra): string {
-  const isRight = era.side === 'right'
-  const contentBlock = `
-    <div class="era-date">${era.date}</div>
-    <div class="era-org">${era.org}</div>
-    <div class="era-role">${era.role}</div>
-    <div class="era-body">${era.body}</div>
-    ${renderMilestones(era.milestones)}`
-
-  const leftContent  = isRight ? '' : contentBlock
-  const rightContent = isRight ? contentBlock : ''
-
   return `
-  <div class="era ${isRight ? 'right' : ''}" style="--node-color: var(--${era.accent});" id="era-${era.id}">
-    <div class="era-left">${leftContent}</div>
+  <div class="era" style="--node-color: var(--${era.accent});" id="era-${era.id}">
+    <div class="era-meta">
+      <div class="era-date">${era.date}</div>
+      <div class="era-org">${era.org}</div>
+      <div class="era-role">${era.role}</div>
+    </div>
     <div class="era-center"><div class="era-node"></div><div class="era-line"></div></div>
-    <div class="era-right">${rightContent}</div>
+    <div class="era-body">${era.body}</div>
+    <div class="era-milestones-col">${renderMilestones(era.milestones)}</div>
   </div>`
 }
 
