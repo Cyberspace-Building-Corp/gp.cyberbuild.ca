@@ -1,0 +1,34 @@
+[
+  {
+    "id": "mentorship",
+    "index": "01",
+    "title": "Cross-Functional Team Mentorship",
+    "accent": "cyan",
+    "body": "Provided technical mentorship across developers, DBAs, and business analysts throughout 17 years at Durham — not siloed to a single discipline. Established architectural standards and guided skill development through collaborative peer code reviews, technical direction, and hands-on pairing. Operated by influence and example in a unionized environment rather than positional authority.",
+    "tags": ["Architectural Standards", "Peer Code Review", "Cross-Functional", "Technical Direction"]
+  },
+  {
+    "id": "security-leadership",
+    "index": "02",
+    "title": "Cross-Divisional Security Modernization",
+    "accent": "magenta",
+    "body": "Led a cross-divisional team through a structured application portfolio rationalization spanning multiple municipal departments. Coordinated assessment, classification, prioritization, and remediation execution across a large and varied application estate — managing stakeholder expectations, vendor engagements, and internal team workload across the full initiative lifecycle.",
+    "tags": ["Cross-Divisional Leadership", "Stakeholder Management", "Portfolio Rationalization", "Vendor Coordination"]
+  },
+  {
+    "id": "rfp-governance",
+    "index": "03",
+    "title": "RFP & Vendor Governance",
+    "accent": "amber",
+    "body": "Led RFP and RFQ evaluations for software, hardware, and professional services — including Commvault backup infrastructure and Vena financial planning. Enforced consistent vendor governance standards across all third-party implementations: no SA accounts, group managed service accounts, enterprise backup chain preservation, supervised access during installs, and mandatory patch coordination through change management.",
+    "tags": ["RFP / RFQ Leadership", "Vendor Governance", "Change Management", "Contract Administration"]
+  },
+  {
+    "id": "engineering-practice",
+    "index": "04",
+    "title": "Engineering Practice & Standards",
+    "accent": "teal",
+    "body": "Introduced TDD, dependency injection, and SOLID principles into Durham's development practice — before the acronyms were common currency. Championed source control adoption (VSS → TFS → Azure DevOps), established CI/CD pipelines, and drove the team from ad-hoc deployment toward structured branching strategies and release cycles. Set naming conventions, metadata documentation practices, and data standards that persisted across the organization.",
+    "tags": ["TDD / SOLID", "CI/CD Pipelines", "Azure DevOps", "Engineering Standards", "Data Governance"]
+  }
+]

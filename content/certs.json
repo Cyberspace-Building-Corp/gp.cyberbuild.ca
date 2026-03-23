@@ -1,0 +1,44 @@
+[
+  {
+    "id": "az-db",
+    "badge": "AZ\nDB",
+    "name": "Microsoft Certified: Azure Database Administrator Associate",
+    "issuer": "Microsoft",
+    "accent": "cyan"
+  },
+  {
+    "id": "mcitp",
+    "badge": "MC\nITP",
+    "name": "MCITP: SQL Server Database Administrator",
+    "issuer": "Microsoft",
+    "accent": "cyan"
+  },
+  {
+    "id": "oracle-oca",
+    "badge": "OCA",
+    "name": "Oracle Certified Database Administrator",
+    "issuer": "Oracle",
+    "accent": "amber"
+  },
+  {
+    "id": "mcp",
+    "badge": "MCP",
+    "name": "MCP: Windows and Web Applications — C#",
+    "issuer": "Microsoft",
+    "accent": "cyan"
+  },
+  {
+    "id": "itil4",
+    "badge": "ITIL\n4",
+    "name": "ITIL 4 Foundations",
+    "issuer": "AXELOS — Certified March 2024",
+    "accent": "teal"
+  },
+  {
+    "id": "ea-uoft",
+    "badge": "EA",
+    "name": "Enterprise Architecture",
+    "issuer": "University of Toronto Continuing Studies — 2021",
+    "accent": "lavender"
+  }
+]

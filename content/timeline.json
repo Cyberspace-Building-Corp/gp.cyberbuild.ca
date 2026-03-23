@@ -1,0 +1,69 @@
+[
+  {
+    "id": "early-career",
+    "date": "2002 — 2007",
+    "org": "Early Career",
+    "role": "Private Sector .NET Development",
+    "accent": "teal",
+    "side": "right",
+    "body": "Fanshawe College Computer Programmer Analyst, then into industry. QA at PGP Securities in Waterloo, .NET development at Info-Tech Research Group and OASIS Auto Complete in London, then progressively more senior roles.",
+    "milestones": [
+      "IBM UniVerse / .NET Technical Lead @ Integrated Dealer Systems — implemented GM RAPID Serial Communication protocol on time, avoiding a $20K penalty",
+      "Senior .NET Web Developer @ Comprehensive Logistics — architected full-stack logistics platform for North American trucking operations"
+    ]
+  },
+  {
+    "id": "systems-analyst",
+    "date": "2007 — 2008",
+    "org": "Region of Durham",
+    "role": "Systems Analyst",
+    "accent": "cyan",
+    "side": "left",
+    "body": "Entry point at Durham in Application Services. Established software engineering best practices — source control, release management, agile methodologies. Oversaw the full SDLC as Technical Lead.",
+    "milestones": []
+  },
+  {
+    "id": "dba-architect-core",
+    "date": "2008 — 2020",
+    "org": "Region of Durham",
+    "role": "Database Administrator & Solution Architect",
+    "accent": "cyan",
+    "side": "right",
+    "body": "Owned the full SQL Server lifecycle — architecture, implementation, performance, upgrades, HA, administration — across a large portfolio of enterprise environments. Led full-lifecycle application development, managed cross-functional teams of developers, DBAs, and business analysts, and governed all third-party vendor relationships.",
+    "milestones": [
+      "SQL Server HA consolidation onto Always On Availability Groups — 99.9% uptime",
+      "Vena buy-vs-build: C# Excel interop POC → recognized maintenance burden → led RFP → Vena procurement",
+      "Durham Health DHCP .NET app, SSIS pipelines, SSRS reporting suite",
+      "Durham/York Energy from Waste real-time web display",
+      "Housing Waitlist system for Social Services"
+    ]
+  },
+  {
+    "id": "cloud-platform",
+    "date": "2020 — 2025",
+    "org": "Region of Durham",
+    "role": "Cloud & Data Platform Evolution",
+    "accent": "amber",
+    "side": "left",
+    "body": "Shifted the platform forward — Azure, Medallion Architecture, Databricks, MS Fabric. Led the organization through a major security modernization initiative and championed managed identities, Arc-enabled servers, and hybrid cloud governance.",
+    "milestones": [
+      "INIT transit analytics — Medallion Architecture on Azure Synapse + Databricks; active MS Fabric migration",
+      "Security modernization — 81% vulnerability reduction; top 2% Ontario public institutions",
+      "Commvault Metallic → Log Analytics backup telemetry pipeline",
+      "GIS Azure migration pilot — infra/HA SQL Server for ESRI stack"
+    ]
+  },
+  {
+    "id": "cyberspace",
+    "date": "2025 — Present",
+    "org": "Cyberspace Building Corp.",
+    "role": "Principal Solution Architect",
+    "accent": "magenta",
+    "side": "right",
+    "body": "Independent consulting delivering database architecture, data platform engineering, cloud infrastructure, and full-stack development. Serving enterprise and public-sector clients across Simcoe County, the Greater Toronto Area, and beyond.",
+    "milestones": [
+      "Contract engagements in DBA, Solution Architecture, Data Engineering, and .NET development",
+      "Targeting roles where architecture depth and platform breadth both contribute"
+    ]
+  }
+]

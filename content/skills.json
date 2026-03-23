@@ -1,0 +1,66 @@
+[
+  {
+    "id": "database",
+    "label": "Database & Data Architecture",
+    "accent": "cyan",
+    "skills": [
+      { "name": "SQL Server 2005–2022", "primary": true },
+      { "name": "Always On AG",         "primary": true },
+      { "name": "Azure SQL",            "primary": true },
+      { "name": "Oracle",               "primary": false },
+      { "name": "PostgreSQL",           "primary": false },
+      { "name": "T-SQL",                "primary": false },
+      { "name": "Query Optimization",   "primary": false },
+      { "name": "Star Schema",          "primary": false },
+      { "name": "Relational Design",    "primary": false },
+      { "name": "TDE / Always Encrypted", "primary": false }
+    ]
+  },
+  {
+    "id": "data-platform",
+    "label": "Data Platform & Engineering",
+    "accent": "amber",
+    "skills": [
+      { "name": "MS Fabric / Lakehouse",    "primary": true },
+      { "name": "Medallion Architecture",   "primary": true },
+      { "name": "Databricks",              "primary": true },
+      { "name": "Azure Synapse",           "primary": false },
+      { "name": "Azure Data Factory",      "primary": false },
+      { "name": "Power BI",               "primary": false },
+      { "name": "SSIS / SSRS",            "primary": false },
+      { "name": "PySpark",                "primary": false },
+      { "name": "KQL",                    "primary": false }
+    ]
+  },
+  {
+    "id": "software",
+    "label": "Software Engineering",
+    "accent": "teal",
+    "skills": [
+      { "name": "C# / .NET 6/8+",    "primary": true },
+      { "name": "ASP.NET Core",       "primary": true },
+      { "name": "Python / FastAPI",   "primary": false },
+      { "name": "Angular / React",    "primary": false },
+      { "name": "TypeScript",         "primary": false },
+      { "name": "REST API",           "primary": false },
+      { "name": "DDD / SOLID / TDD",  "primary": false },
+      { "name": "Event-Driven",       "primary": false },
+      { "name": "GraphQL",            "primary": false }
+    ]
+  },
+  {
+    "id": "cloud",
+    "label": "Cloud & Infrastructure",
+    "accent": "lavender",
+    "skills": [
+      { "name": "Microsoft Azure",       "primary": true },
+      { "name": "Azure DevOps CI/CD",    "primary": true },
+      { "name": "Docker / Kubernetes",   "primary": false },
+      { "name": "Terraform / Bicep",     "primary": false },
+      { "name": "Managed Identities",    "primary": false },
+      { "name": "Azure Arc",             "primary": false },
+      { "name": "Azure Functions",       "primary": false },
+      { "name": "Service Bus",           "primary": false }
+    ]
+  }
+]

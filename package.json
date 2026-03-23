@@ -1,0 +1,15 @@
+{
+  "name": "gregpeterson-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site for Greg Peterson — gregpeterson.cyberbuild.ca",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "typescript": "^5.5.0"
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "init-transit",
+    "index": "01",
+    "title": "INIT Transit Analytics — Medallion Architecture",
+    "outcome": "Azure Synapse · Databricks · MS Fabric",
+    "accent": "amber",
+    "body": "Technical lead on a collaborative team implementing a Medallion Architecture analytics solution ingesting operational transit data from INIT — a German vendor widely deployed across Ontario transit agencies. Worked alongside Transit SMEs and the implementation vendor, providing Oracle DBA support to the INIT vendor during integration. Led the active migration to MS Fabric as the solution matured.",
+    "tags": ["Azure Synapse", "Databricks", "MS Fabric", "Medallion Architecture", "Oracle DBA", "PySpark"]
+  },
+  {
+    "id": "security-modernization",
+    "index": "02",
+    "title": "Application Security Modernization",
+    "outcome": "81% Vulnerability Reduction · Top 2% Ontario",
+    "accent": "magenta",
+    "body": "Led a cross-divisional team through a structured portfolio rationalization: inventoried all applications, evaluated each against supportability, patch currency, security risk, and technology direction, then classified by remediation path — platform migration, upgrade, vendor patch coordination, database consolidation, isolation, or retirement. Result: 81% reduction in security vulnerabilities across the portfolio.",
+    "tags": ["Portfolio Assessment", "Risk Classification", "Vendor Governance", "Platform Migration", "Change Management"]
+  },
+  {
+    "id": "sql-ha",
+    "index": "03",
+    "title": "SQL Server HA Consolidation",
+    "outcome": "99.9% Uptime · Always On AG",
+    "accent": "cyan",
+    "body": "Consolidated Durham's fragmented SQL Server estate — one instance per application, varying states of currency — onto centralized Always On Availability Groups. Retired end-of-life instances, standardized the platform, and brought the remaining estate under consistent governance. Delivered 99.9% uptime across mission-critical database environments.",
+    "tags": ["SQL Server Enterprise", "Always On AG", "Mirroring", "Log Shipping", "Disaster Recovery"]
+  },
+  {
+    "id": "commvault-pipeline",
+    "index": "04",
+    "title": "Commvault Metallic → Log Analytics Pipeline",
+    "outcome": "Backup Telemetry · Azure Monitor",
+    "accent": "lavender",
+    "body": "Designed and built a pipeline ingesting Commvault Metallic backup telemetry into Azure Log Analytics. Integrated the resulting data streams with Azure Monitor and Defender Security team playbooks — turning backup operational data into an active security signal rather than a passive audit trail.",
+    "tags": ["Commvault Metallic", "Azure Log Analytics", "Azure Monitor", "Defender Security", "Pipeline Design"]
+  },
+  {
+    "id": "service-health",
+    "index": "05",
+    "title": "IT Service Health Dashboard",
+    "outcome": "React · MS Fabric Eventhouse · Near Real-Time",
+    "accent": "cyan",
+    "body": "Built an internal enterprise service health dashboard to give the organization real-time visibility into critical system availability. The goal was transparency — if a service was down, staff could see it immediately rather than flooding the helpdesk with tickets. Power BI was evaluated and ruled out: the dependency chain and rendering overhead made it too slow for a use case where load speed is the point. React was chosen deliberately for its fast initial load and lightweight rendering. MS Fabric Eventhouse fed near-real-time telemetry from the service monitoring system into the front end.",
+    "tags": ["React", "MS Fabric Eventhouse", "KQL", "Real-Time Streaming", "Service Monitoring", "UX / Enterprise Transparency"]
+  },
+  {
+    "id": "durham-health",
+    "index": "06",
+    "title": "Durham Health: Encounter Health Reporting & Fabric Migration",
+    "outcome": "SSRS on Vendor Data → Power BI · MS Fabric",
+    "accent": "amber",
+    "body": "Built and maintained a custom SSIS/SSRS reporting layer on top of Durham Health's Encounter Health (Intrahealth) flu clinic and CRM data exports — filling gaps the vendor product didn't cover. Managed the ongoing vendor relationship through multiple product transitions. Later led the full migration of that reporting solution onto MS Fabric and Power BI, including semantic model development and Git-integrated deployment pipelines.",
+    "tags": ["C# / .NET", "SSIS", "SSRS", "Intrahealth / Encounter Health", "Power BI", "MS Fabric", "Vendor Management"]
+  },
+  {
+    "id": "housing-waitlist",
+    "index": "07",
+    "title": "Housing Waitlist — Durham Social Services",
+    "outcome": "Vendor Product · System Design · SME",
+    "accent": "teal",
+    "body": "Contributed to the design and implementation of the Housing Waitlist system for Durham's Social Services department. Role spanned vendor management, system design, and subject matter expertise — coordinating between the vendor product team, Social Services business stakeholders, and internal infrastructure to ensure the solution fit operational requirements and integrated correctly with Durham's data and database standards.",
+    "tags": ["System Design", "Vendor Management", "SQL Server", "Stakeholder Coordination", "Requirements"]
+  }
+]

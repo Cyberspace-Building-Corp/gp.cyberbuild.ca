@@ -1,0 +1,6 @@
+export { renderHero, renderHeroText } from './hero.js'
+export { renderTimeline } from './timeline.js'
+export { renderProjects } from './projects.js'
+export { renderCerts, renderSkillDomains } from './skills.js'
+export { renderLeadership } from './leadership.js'
+export { renderContact } from './contact.js'
