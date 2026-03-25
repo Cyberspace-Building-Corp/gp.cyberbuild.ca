@@ -61,5 +61,23 @@
     "accent": "teal",
     "body": "Contributed to the design and implementation of the Housing Waitlist system for Durham's Social Services department. Role spanned vendor management, system design, and subject matter expertise — coordinating between the vendor product team, Social Services business stakeholders, and internal infrastructure to ensure the solution fit operational requirements and integrated correctly with Durham's data and database standards.",
     "tags": ["System Design", "Vendor Management", "SQL Server", "Stakeholder Coordination", "Requirements"]
+  },
+  {
+    "id": "energy-from-waste",
+    "index": "08",
+    "title": "Durham/York Energy from Waste",
+    "outcome": "Real-Time Emissions Display · Legal Reporting Compliance",
+    "accent": "magenta",
+    "body": "Designed and developed an integration pulling operational waste burn and emissions data from a vendor system into SQL Server, feeding a public-facing web display. Built to meet provincial and federal legal reporting requirements for emissions from garbage incineration. Led full-cycle design and implementation alongside a second developer.",
+    "tags": ["C# / .NET", "SSIS", "SQL Server", "ASP.NET", "Regulatory Compliance", "Vendor Integration"]
+  },
+  {
+    "id": "peoplesoft-hr",
+    "index": "09",
+    "title": "PeopleSoft HR Integration",
+    "outcome": "Identity Sync · Org Data · Active Directory · Azure Entra ID",
+    "accent": "lavender",
+    "body": "Designed and built an SSIS pipeline pulling from PeopleSoft into an in-house data model covering org hierarchy, departments, divisions, reporting structure, union membership, and employment start and end dates. The resulting dataset drove synchronization of Active Directory and Azure Entra ID, keeping identity and access management current with HR system changes.",
+    "tags": ["PeopleSoft", "SSIS", "SQL Server", "Active Directory", "Azure Entra ID", "Identity Sync"]
   }
 ]

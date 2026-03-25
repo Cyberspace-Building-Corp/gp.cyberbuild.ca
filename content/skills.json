@@ -42,6 +42,8 @@
       { "name": "Python / FastAPI",   "primary": false },
       { "name": "Angular / React",    "primary": false },
       { "name": "TypeScript",         "primary": false },
+      { "name": "Generative AI Development", "primary": false },
+      { "name": "Agentic Workflows",  "primary": false },
       { "name": "REST API",           "primary": false },
       { "name": "DDD / SOLID / TDD",  "primary": false },
       { "name": "Event-Driven",       "primary": false },
